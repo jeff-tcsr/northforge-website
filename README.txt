@@ -1,9 +1,13 @@
-NORTHFORGE MECHANICAL GROUP WEBSITE PACKAGE V2
+NORTHFORGE MECHANICAL GROUP WEBSITE PACKAGE V3
 
 WHAT'S INCLUDED
 - 5 static pages: Home, Custom Homes, HVAC / Mechanical, Plumbing Supply, Contact
-- Improved styling and section polish
+- Enhanced styling and contractor-style layout polish
+- Animated hero image
+- Click-to-open lightbox gallery
+- Sticky call / quote buttons
 - Netlify-ready contact form
+- SEO-friendly title and meta keywords
 - Project photos in /images
 
 QUICK DEPLOY - NETLIFY
