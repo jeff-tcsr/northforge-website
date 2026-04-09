@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Contact | NorthForge Mechanical Group</title>
+<meta name="description" content="NorthForge Mechanical Group builds custom homes, delivers commercial HVAC solutions, and supplies plumbing and mechanical components in Newfoundland."/>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="index.html">
+      <svg viewBox="0 0 100 100" class="brand-mark" aria-hidden="true"><polygon points="10,80 50,20 90,80" fill="none" stroke="currentColor" stroke-width="8" /><line x1="50" y1="20" x2="50" y2="80" stroke="currentColor" stroke-width="6" /><rect x="30" y="78" width="40" height="10" rx="2" fill="currentColor" /></svg>
+      <div>
+        <div class="brand-title">NORTHFORGE</div>
+        <div class="brand-sub">Mechanical Group</div>
+      </div>
+    </a>
+    <nav class="nav"><a href="index.html" class="">Home</a><a href="homes.html" class="">Custom Homes</a><a href="hvac.html" class="">HVAC / Mechanical</a><a href="supply.html" class="">Plumbing Supply</a><a href="contact.html" class="active">Contact</a></nav>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="eyebrow">Contact / Lead Capture</div>
+    <h2>A quote page built to turn visitors into conversations.</h2>
+    <p class="section-text">Use this as the main quote page or split it later into separate residential and commercial inquiry forms.</p>
+    <div class="form-grid">
+      <div class="banner">
+        <div class="eyebrow">NorthForge Mechanical Group</div>
+        <h3>Request Information</h3>
+        <p>Use this page for custom home leads, HVAC quote requests, plumbing supply inquiries, or general contractor contact.</p>
+        <div class="feature-list">
+          <div>Phone: 709-XXX-XXXX</div>
+          <div>Email: info@northforgemechanical.ca</div>
+          <div>Service Area: Central &amp; Western NL</div>
+        </div>
+        <p class="small">Netlify Forms is enabled in this package. After deployment on Netlify, submissions can be captured without extra code.</p>
+      </div>
+      <div class="form-panel">
+        <div class="eyebrow">Quote Form</div>
+        <h3>Tell us about your project</h3>
+        <form name="northforge-contact" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="northforge-contact"/>
+          <label class="field"><input type="text" name="full_name" placeholder="Full Name" required/></label>
+          <label class="field"><input type="tel" name="phone" placeholder="Phone Number"/></label>
+          <label class="field"><input type="email" name="email" placeholder="Email Address" required/></label>
+          <label class="field"><input type="text" name="location" placeholder="Community / Build Location"/></label>
+          <label class="field">
+            <select name="budget">
+              <option value="">Estimated Budget Range</option>
+              <option>Under $250,000</option>
+              <option>$250,000 - $400,000</option>
+              <option>$400,000 - $600,000</option>
+              <option>$600,000+</option>
+            </select>
+          </label>
+          <label class="field"><input type="text" name="timeline" placeholder="Desired Timeline"/></label>
+          <label class="field">
+            <select name="service_needed">
+              <option value="">Service Needed</option>
+              <option>Custom Home Build</option>
+              <option>HVAC / Mechanical</option>
+              <option>Plumbing Supply</option>
+              <option>General Inquiry</option>
+            </select>
+          </label>
+          <label class="field"><textarea name="project_details" placeholder="Project Details"></textarea></label>
+          <button class="btn btn-primary" type="submit">Submit Request</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">NorthForge Mechanical Group V2 website package — ready for Netlify or Vercel deployment.</div>
+</footer>
+</body>
+</html>
